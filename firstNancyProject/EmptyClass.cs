@@ -1,10 +1,13 @@
-﻿using System;
+﻿using Nancy;
+using System;
+
 namespace firstNancyProject
 {
-	public class EmptyClass
+	public class HomeModule : NancyModule
 	{
-		public EmptyClass()
+		public HomeModule()
 		{
+			Get["/"] = p => Console.WriteLine("HI");
 		}
 	}
 }
