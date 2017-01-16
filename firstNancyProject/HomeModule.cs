@@ -1,5 +1,4 @@
 ﻿using Nancy;
-using System;
 
 namespace firstNancyProject
 {
@@ -7,7 +6,7 @@ namespace firstNancyProject
 	{
 		public HomeModule()
 		{
-			Get["/"] = p => Console.WriteLine("HI");
+			Get["/"] = p => "Hello World!";
 		}
 	}
 }

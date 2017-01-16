@@ -27,7 +27,7 @@
     <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="EmptyClass.cs" />
+    <Compile Include="HomeModule.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Nancy">
